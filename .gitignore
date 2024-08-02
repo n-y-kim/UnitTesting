@@ -1,0 +1,35 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.zip
+*.swp
+
+# Ignore Aspire-specific files
+AspireConfig.json
+AspireConfig.local.json
+
+# Ignore Blazor-specific files
+wwwroot/dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
